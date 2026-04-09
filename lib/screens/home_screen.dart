@@ -25,7 +25,8 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: AppColors.white,
       floatingActionButton: FloatingActionButton(
         onPressed: () => _go(const CustomizeScreen()),
-        backgroundColor: Colors.white,
+        // backgroundColor: const Color.fromARGB(255, 228, 39, 39),
+        backgroundColor: const Color(0xFFEF2A39),
         elevation: 6,
         shape: const CircleBorder(),
         child: const Icon(Icons.add, color: AppColors.dark, size: 28),
