@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: const Color(0xFFEF2A39),
         elevation: 6,
         shape: const CircleBorder(),
-        child: const Icon(Icons.add, color: AppColors.dark, size: 28),
+        child: const Icon(Icons.add, color: AppColors.white, size: 28),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: _buildBottomNav(),
